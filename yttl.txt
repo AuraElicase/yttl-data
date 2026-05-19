@@ -6,7 +6,9 @@
 				"youtube.com",
 				"twitch.tv",
 				"soundcloud.com",
-				"nicovideo.jp"
+				"nicovideo.jp",
+				"bilibili.com",
+				"b23.tv"
 			]
 		},
 		"nextnex.com": {
@@ -37,6 +39,13 @@
 				"youtu.be",
 				"twitch.tv",
 				"soundcloud.com"
+			]
+		},
+		"biliplayer.91vrchat.com": {
+			"parameter": { "s": "player/?url=" },
+			"site": [
+				"bilibili.com",
+				"b23.tv"
 			]
 		}
 	},
@@ -76,6 +85,16 @@
 			},
 			"description": {
 				"end": { "s": "\"description\":", "t": "\"" }
+			}
+		},
+		"bilibili.com": {
+			"title": {
+				"end": { "s": "<title>", "t": "</title>" }
+			}
+		},
+		"b23.tv": {
+			"title": {
+				"end": { "s": "<title>", "t": "</title>" }
 			}
 		}
 	}
