@@ -9,7 +9,7 @@
 				"nicovideo.jp",
 				"bilibili.com",
 				"b23.tv",
-				"127.0.0.1:5500"
+				"localhost:5108"
 			]
 		},
 		"nextnex.com": {
@@ -40,13 +40,6 @@
 				"youtu.be",
 				"twitch.tv",
 				"soundcloud.com"
-			]
-		},
-		"biliplayer.91vrchat.com": {
-			"parameter": { "s": "player/?url=" },
-			"site": [
-				"bilibili.com",
-				"b23.tv"
 			]
 		}
 	},
@@ -98,9 +91,9 @@
 				"end": { "s": "<title>", "t": "</title>" }
 			}
 		},
-		"127.0.0.1:5500": {
+		"localhost:5108": {
 			"title": {
-				"end": { "s": "<title>", "t": "</title>" }
+				"end": { "s": "<b>标题：</b>", "t": "</p>" }
 			}
 		}
 	}
