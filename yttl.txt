@@ -9,7 +9,8 @@
 				"nicovideo.jp",
 				"bilibili.com",
 				"b23.tv",
-				"localhost:5108"
+				"localhost:5108",
+				"vrworld.public.elicase.tech"
 			]
 		},
 		"nextnex.com": {
@@ -92,6 +93,20 @@
 			}
 		},
 		"localhost:5108": {
+			"author": {
+				"end": { "s": "<b>作者：</b>", "t": "</p>" }
+			},
+			"title": {
+				"end": { "s": "<b>标题：</b>", "t": "</p>" }
+			},
+			"viewCount": {
+				"end": { "s": "<b>播放量：</b>", "t": "</p>" }
+			},
+			"description": {
+				"end": { "s": "<b>描述：</b>", "t": "</p>" }
+			}
+		},
+		"vrworld.public.elicase.tech": {
 			"author": {
 				"end": { "s": "<b>作者：</b>", "t": "</p>" }
 			},
